@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<div class="home">
+  {% for post in site.posts %}
+    {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+    <div class="row">
+      <div class="entry">
+        <h2><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2> <p class="post-meta">{{ post.date | date: date_format }}</p>
+      </div>
+    </div>
+  {% endfor %}
+</div>
