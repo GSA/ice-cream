@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "2 Scoops please"
-date:   2017-09-12 21:53:56 -0400
-categories: vanilla cones
+title:  "Hello World"
+date:   2017-09-11 21:53:56 -0400
+categories: jekyll update
 author: jeremyzilar
 ---
 
