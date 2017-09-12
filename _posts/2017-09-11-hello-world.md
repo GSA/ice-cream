@@ -3,6 +3,7 @@ layout: post
 title:  "Hello World"
 date:   2017-09-11 21:53:56 -0400
 categories: jekyll update
+author: jeremyzilar
 ---
 
 ## Hello!
